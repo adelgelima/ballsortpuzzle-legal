@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Política de Privacidade — Ball Sort Puzzle</title>
+<meta name="description" content="Política de Privacidade do aplicativo Ball Sort Puzzle (Adelge Solutions)." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f4ecde; --bg2:#efe4d2; --panel:#fffaf0; --ink:#2b2620; --muted:#6f6453;
+    --line:#e3d6bf; --accent:#1f8a8a; --accent-d:#136e6e; --shadow:rgba(60,45,20,.14);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0; color:var(--ink);
+    font-family:'Nunito',system-ui,sans-serif; line-height:1.7; font-size:17px;
+    background:
+      radial-gradient(120% 60% at 50% -10%, var(--panel), transparent 55%),
+      linear-gradient(180deg,var(--bg),var(--bg2));
+    min-height:100vh;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:0 22px 80px;}
+  header{padding:44px 0 8px; text-align:center;}
+  .badge{
+    width:64px;height:64px;border-radius:18px;margin:0 auto 18px;
+    background:linear-gradient(160deg,#fffaf0,#f0e4d2);
+    border:2px solid var(--line); box-shadow:0 6px 16px var(--shadow);
+    display:flex;align-items:center;justify-content:center;gap:5px;
+  }
+  .badge .b{width:13px;border-radius:7px;}
+  .badge .t1{height:30px;background:radial-gradient(circle at 35% 30%,#fff9,transparent 45%),#2ec4b6;}
+  .badge .t2{height:38px;background:radial-gradient(circle at 35% 30%,#fff9,transparent 45%),#e8505b;}
+  .badge .t3{height:24px;background:radial-gradient(circle at 35% 30%,#fff9,transparent 45%),#f5821f;}
+  h1{font-family:'Fredoka',sans-serif; font-weight:700; font-size:30px; margin:0 0 4px;}
+  .sub{color:var(--muted); font-weight:600; margin:0;}
+  .eff{color:var(--muted); font-size:14px; margin-top:6px;}
+  .langbar{display:flex; gap:8px; justify-content:center; margin:22px 0 6px; flex-wrap:wrap;}
+  .langbar button{
+    font-family:'Fredoka',sans-serif; font-weight:600; font-size:14px; cursor:pointer;
+    background:var(--panel); border:1.5px solid var(--line); color:var(--ink);
+    border-radius:999px; padding:8px 16px; transition:.15s;
+  }
+  .langbar button.on{background:var(--accent); color:#fff; border-color:var(--accent);}
+  .card{
+    background:var(--panel); border:1.5px solid var(--line); border-radius:20px;
+    padding:30px 30px 14px; margin-top:22px; box-shadow:0 8px 24px var(--shadow);
+  }
+  h2{font-family:'Fredoka',sans-serif; font-weight:600; font-size:20px;
+     margin:26px 0 8px; color:var(--accent-d); scroll-margin-top:20px;}
+  h2:first-child{margin-top:4px;}
+  p{margin:0 0 14px;}
+  ul{margin:0 0 14px; padding-left:22px;} li{margin-bottom:7px;}
+  a{color:var(--accent-d); text-decoration:underline; text-underline-offset:2px;}
+  .note{
+    background:#fff4e6; border-left:4px solid #f5821f; border-radius:8px;
+    padding:12px 16px; margin:0 0 14px; font-size:15px;
+  }
+  code{background:#f0e7d6; padding:2px 7px; border-radius:6px; font-size:14px; font-family:ui-monospace,monospace;}
+  footer{text-align:center; color:var(--muted); font-size:13px; margin-top:30px;}
+  .lang{display:none;} .lang.active{display:block;}
+  @media(max-width:560px){ body{font-size:16px;} .card{padding:24px 20px 10px;} h1{font-size:26px;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="badge"><span class="b t1"></span><span class="b t2"></span><span class="b t3"></span></div>
+    <h1>Ball Sort Puzzle</h1>
+    <p class="sub" id="subhead">Política de Privacidade</p>
+    <p class="eff" id="effdate">Última atualização: 1 de junho de 2026</p>
+    <div class="langbar">
+      <button data-l="pt" class="on">Português</button>
+      <button data-l="en">English</button>
+      <button data-l="es">Español</button>
+    </div>
+  </header>
+
+  <div class="card">
+    <!-- ===================== PORTUGUÊS ===================== -->
+    <div class="lang active" data-lang="pt">
+      <p>Esta Política de Privacidade descreve como o aplicativo <strong>Ball Sort Puzzle</strong> ("aplicativo", "nós") trata as informações dos usuários. O aplicativo é desenvolvido por <strong>Adelge Solutions</strong>. Ao instalar ou usar o aplicativo, você concorda com as práticas descritas abaixo.</p>
+
+      <h2>1. Informações que coletamos</h2>
+      <p>O aplicativo em si <strong>não solicita, não coleta e não armazena dados pessoais identificáveis</strong> (como nome, e-mail, telefone ou localização precisa) em nossos servidores. Não temos servidores próprios: o progresso do jogo (nível atual e configurações) é salvo <strong>apenas localmente no seu dispositivo</strong> e nunca é enviado para nós.</p>
+      <p>No entanto, exibimos anúncios por meio do <strong>Google AdMob</strong>, e esses serviços de terceiros podem coletar determinados dados automaticamente, conforme descrito na seção a seguir.</p>
+
+      <h2>2. Publicidade e Identificador de Publicidade (Advertising ID)</h2>
+      <p>Utilizamos o <strong>Google AdMob</strong> para exibir anúncios. Para fornecer e medir anúncios, o Google e seus parceiros podem coletar e processar:</p>
+      <ul>
+        <li>o <strong>Identificador de Publicidade do Android (Advertising ID / AdID)</strong>;</li>
+        <li>informações do dispositivo (modelo, sistema operacional, idioma);</li>
+        <li>dados de interação com os anúncios e endereço IP aproximado.</li>
+      </ul>
+      <p>Esses dados podem ser usados para exibir anúncios personalizados ou não personalizados, medir desempenho e prevenir fraudes. O tratamento de dados pelo Google é regido pela política de privacidade do Google. Saiba mais e gerencie suas opções em:</p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a></li>
+        <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Como o Google usa dados ao usar apps de parceiros</a></li>
+        <li><a href="https://adssettings.google.com" target="_blank" rel="noopener">Configurações de anúncios do Google</a></li>
+      </ul>
+      <div class="note">Você pode redefinir ou limitar o uso do seu Advertising ID a qualquer momento em <strong>Configurações &gt; Google &gt; Anúncios</strong> do seu dispositivo Android.</div>
+
+      <h2>3. Consentimento na Europa (GDPR)</h2>
+      <p>Para usuários no Espaço Econômico Europeu (EEE), Reino Unido e Suíça, exibimos uma mensagem de consentimento por meio de uma Plataforma de Gerenciamento de Consentimento certificada pelo Google antes de coletar dados para personalização de anúncios. Você pode conceder ou recusar o consentimento e alterá-lo a qualquer momento. Caso recuse, serão exibidos apenas anúncios não personalizados ou limitados.</p>
+
+      <h2>4. Crianças</h2>
+      <p>O aplicativo não é direcionado a crianças menores de 13 anos e não coletamos intencionalmente dados de crianças. Caso acredite que uma criança nos forneceu dados, entre em contato para que possamos removê-los.</p>
+
+      <h2>5. Armazenamento local</h2>
+      <p>O progresso do jogo é armazenado localmente no seu dispositivo. Você pode apagá-lo a qualquer momento limpando os dados do aplicativo ou desinstalando-o.</p>
+
+      <h2>6. Segurança</h2>
+      <p>Como não mantemos servidores nem bancos de dados de usuários, a superfície de exposição de dados é mínima. Ainda assim, nenhum método de transmissão pela internet é 100% seguro.</p>
+
+      <h2>7. Seus direitos (LGPD)</h2>
+      <p>De acordo com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018), você tem direito de confirmar o tratamento, acessar, corrigir, anonimizar ou solicitar a eliminação de dados, e revogar o consentimento. Como não armazenamos dados pessoais em nossos sistemas, esses pedidos relativos a anúncios devem ser direcionados principalmente ao Google; ainda assim, você pode nos contatar para qualquer dúvida.</p>
+
+      <h2>8. Alterações nesta Política</h2>
+      <p>Podemos atualizar esta Política periodicamente. A data de "Última atualização" no topo indica a versão vigente. Recomendamos revisá-la de tempos em tempos.</p>
+
+      <h2>9. Contato</h2>
+      <p>Em caso de dúvidas sobre esta Política de Privacidade, entre em contato:<br>
+      <strong>Adelge Solutions</strong> — <a href="mailto:adelgelima@gmail.com">adelgelima@gmail.com</a></p>
+    </div>
+
+    <!-- ===================== ENGLISH ===================== -->
+    <div class="lang" data-lang="en">
+      <p>This Privacy Policy describes how the <strong>Ball Sort Puzzle</strong> application ("app", "we") handles user information. The app is developed by <strong>Adelge Solutions</strong>. By installing or using the app, you agree to the practices described below.</p>
+
+      <h2>1. Information we collect</h2>
+      <p>The app itself <strong>does not request, collect, or store personally identifiable data</strong> (such as name, email, phone number, or precise location) on our servers. We operate no servers of our own: your game progress (current level and settings) is saved <strong>only locally on your device</strong> and is never sent to us.</p>
+      <p>However, we display ads through <strong>Google AdMob</strong>, and these third-party services may automatically collect certain data, as described in the next section.</p>
+
+      <h2>2. Advertising and the Advertising ID</h2>
+      <p>We use <strong>Google AdMob</strong> to display ads. To serve and measure ads, Google and its partners may collect and process:</p>
+      <ul>
+        <li>the <strong>Android Advertising ID (AdID)</strong>;</li>
+        <li>device information (model, operating system, language);</li>
+        <li>ad-interaction data and approximate IP address.</li>
+      </ul>
+      <p>This data may be used to serve personalized or non-personalized ads, measure performance, and prevent fraud. Google's data handling is governed by Google's privacy policy. Learn more and manage your options at:</p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+        <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses data from partner apps</a></li>
+        <li><a href="https://adssettings.google.com" target="_blank" rel="noopener">Google Ads Settings</a></li>
+      </ul>
+      <div class="note">You can reset or limit the use of your Advertising ID at any time under <strong>Settings &gt; Google &gt; Ads</strong> on your Android device.</div>
+
+      <h2>3. Consent in Europe (GDPR)</h2>
+      <p>For users in the European Economic Area (EEA), the UK, and Switzerland, we display a consent message through a Google-certified Consent Management Platform before collecting data for ad personalization. You may grant or decline consent and change it at any time. If you decline, only non-personalized or limited ads will be shown.</p>
+
+      <h2>4. Children</h2>
+      <p>The app is not directed to children under 13, and we do not knowingly collect data from children. If you believe a child has provided us with data, please contact us so we can remove it.</p>
+
+      <h2>5. Local storage</h2>
+      <p>Game progress is stored locally on your device. You can delete it at any time by clearing the app's data or uninstalling the app.</p>
+
+      <h2>6. Security</h2>
+      <p>Because we maintain no servers or user databases, the data-exposure surface is minimal. Nonetheless, no method of transmission over the internet is 100% secure.</p>
+
+      <h2>7. Your rights</h2>
+      <p>Depending on your jurisdiction (including GDPR and Brazil's LGPD), you may have the right to access, correct, delete, or restrict the processing of your data and to withdraw consent. Since we store no personal data on our systems, ad-related requests should be directed primarily to Google; you may still contact us with any questions.</p>
+
+      <h2>8. Changes to this Policy</h2>
+      <p>We may update this Policy from time to time. The "Last updated" date at the top reflects the current version. We recommend reviewing it periodically.</p>
+
+      <h2>9. Contact</h2>
+      <p>If you have any questions about this Privacy Policy, contact:<br>
+      <strong>Adelge Solutions</strong> — <a href="mailto:adelgelima@gmail.com">adelgelima@gmail.com</a></p>
+    </div>
+
+    <!-- ===================== ESPAÑOL ===================== -->
+    <div class="lang" data-lang="es">
+      <p>Esta Política de Privacidad describe cómo la aplicación <strong>Ball Sort Puzzle</strong> ("aplicación", "nosotros") trata la información de los usuarios. La aplicación es desarrollada por <strong>Adelge Solutions</strong>. Al instalar o usar la aplicación, aceptas las prácticas descritas a continuación.</p>
+
+      <h2>1. Información que recopilamos</h2>
+      <p>La aplicación en sí <strong>no solicita, no recopila ni almacena datos personales identificables</strong> (como nombre, correo, teléfono o ubicación precisa) en nuestros servidores. No tenemos servidores propios: tu progreso del juego (nivel actual y ajustes) se guarda <strong>solo localmente en tu dispositivo</strong> y nunca se nos envía.</p>
+      <p>Sin embargo, mostramos anuncios mediante <strong>Google AdMob</strong>, y estos servicios de terceros pueden recopilar ciertos datos automáticamente, como se describe en la siguiente sección.</p>
+
+      <h2>2. Publicidad e Identificador de Publicidad (Advertising ID)</h2>
+      <p>Utilizamos <strong>Google AdMob</strong> para mostrar anuncios. Para ofrecer y medir anuncios, Google y sus socios pueden recopilar y procesar:</p>
+      <ul>
+        <li>el <strong>Identificador de Publicidad de Android (Advertising ID / AdID)</strong>;</li>
+        <li>información del dispositivo (modelo, sistema operativo, idioma);</li>
+        <li>datos de interacción con los anuncios y dirección IP aproximada.</li>
+      </ul>
+      <p>Estos datos pueden usarse para mostrar anuncios personalizados o no personalizados, medir el rendimiento y prevenir fraudes. El tratamiento de datos por parte de Google se rige por la política de privacidad de Google. Más información y opciones en:</p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidad de Google</a></li>
+        <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Cómo usa Google los datos de apps asociadas</a></li>
+        <li><a href="https://adssettings.google.com" target="_blank" rel="noopener">Configuración de anuncios de Google</a></li>
+      </ul>
+      <div class="note">Puedes restablecer o limitar el uso de tu Advertising ID en cualquier momento en <strong>Ajustes &gt; Google &gt; Anuncios</strong> de tu dispositivo Android.</div>
+
+      <h2>3. Consentimiento en Europa (GDPR)</h2>
+      <p>Para usuarios en el Espacio Económico Europeo (EEE), el Reino Unido y Suiza, mostramos un mensaje de consentimiento mediante una Plataforma de Gestión de Consentimiento certificada por Google antes de recopilar datos para la personalización de anuncios. Puedes otorgar o rechazar el consentimiento y cambiarlo en cualquier momento. Si lo rechazas, solo se mostrarán anuncios no personalizados o limitados.</p>
+
+      <h2>4. Niños</h2>
+      <p>La aplicación no está dirigida a niños menores de 13 años y no recopilamos datos de niños de forma intencional. Si crees que un niño nos ha proporcionado datos, contáctanos para que podamos eliminarlos.</p>
+
+      <h2>5. Almacenamiento local</h2>
+      <p>El progreso del juego se almacena localmente en tu dispositivo. Puedes borrarlo en cualquier momento limpiando los datos de la aplicación o desinstalándola.</p>
+
+      <h2>6. Seguridad</h2>
+      <p>Como no mantenemos servidores ni bases de datos de usuarios, la superficie de exposición de datos es mínima. Aun así, ningún método de transmisión por internet es 100% seguro.</p>
+
+      <h2>7. Tus derechos</h2>
+      <p>Según tu jurisdicción (incluidos el GDPR y la LGPD de Brasil), puedes tener derecho a acceder, corregir, eliminar o restringir el tratamiento de tus datos y a revocar el consentimiento. Como no almacenamos datos personales en nuestros sistemas, las solicitudes relacionadas con anuncios deben dirigirse principalmente a Google; aun así, puedes contactarnos ante cualquier duda.</p>
+
+      <h2>8. Cambios en esta Política</h2>
+      <p>Podemos actualizar esta Política periódicamente. La fecha de "Última actualización" en la parte superior refleja la versión vigente. Recomendamos revisarla de vez en cuando.</p>
+
+      <h2>9. Contacto</h2>
+      <p>Si tienes preguntas sobre esta Política de Privacidad, contacta:<br>
+      <strong>Adelge Solutions</strong> — <a href="mailto:adelgelima@gmail.com">adelgelima@gmail.com</a></p>
+    </div>
+  </div>
+
+  <footer>© 2026 Adelge Solutions · Ball Sort Puzzle</footer>
+</div>
+
+<script>
+  const SUB={pt:"Política de Privacidade",en:"Privacy Policy",es:"Política de Privacidad"};
+  const EFF={pt:"Última atualização: 1 de junho de 2026",
+             en:"Last updated: June 1, 2026",
+             es:"Última actualización: 1 de junio de 2026"};
+  const HL={pt:"pt-BR",en:"en",es:"es"};
+  function setLang(l){
+    document.querySelectorAll('.lang').forEach(d=>d.classList.toggle('active', d.dataset.lang===l));
+    document.querySelectorAll('.langbar button').forEach(b=>b.classList.toggle('on', b.dataset.l===l));
+    document.getElementById('subhead').textContent=SUB[l];
+    document.getElementById('effdate').textContent=EFF[l];
+    document.documentElement.lang=HL[l];
+  }
+  document.querySelectorAll('.langbar button').forEach(b=>
+    b.addEventListener('click',()=>setLang(b.dataset.l)));
+  // auto-detect first visit
+  const n=(navigator.language||'pt').toLowerCase();
+  setLang(n.startsWith('en')?'en':n.startsWith('es')?'es':'pt');
+</script>
+</body>
+</html>
